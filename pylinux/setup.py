@@ -2,15 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name='pylinux',
-    version='0.6.0.1.dev1',
+    version='0.0.1.1.dev1',
     description='convert markdown 2 latex code perfactly,support Chinese Language',
-    url='TODO',
-    author='TODO',
-    author_email='TODO',
+    url='https://github.com/sailist/pycommandtool/tree/master/pylinux',
+    author='sailist',
+    author_email='sailist@outlook.com',
     license='MIT',
     include_package_data=True,
     install_requires=[
-        # "click",
+        # "colorprint",
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -22,12 +22,16 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    keywords='TODO',
+    keywords='win linux command',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'head = pylinux.editor:head',
-            'tail = pylinux.editor:tail',
+            'head = pylinux.txteditor.head:main',
+            'tail = pylinux.txteditor.tail:main',
+            'egrep = pylinux.txteditor.egrep:main',
+            'wc = pylinux.txteditor.wc:main',
+            'ls = pylinux.diskmanager.ls:main',
+            'tee = pylinux.manager.tee:main',
         ]
     },
 )
