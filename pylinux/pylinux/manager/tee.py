@@ -75,15 +75,15 @@ for i in range(len(fs)):
         stream.append(sys.stdout)
     else:
         if append:
-            stream.append(open(f,"wa"))
+            stream.append(open(f,"wab"))
         else:
-            stream.append(open(f, "w"))
+            stream.append(open(f, "wb"))
 
 while True:
     try:
         ipt = input("")
         for s in stream:
-            s.write(f"{ipt}\n")
+            s.write(f"{ipt}\n".encode(encoding="utf-8"))
             s.flush()
     except KeyboardInterrupt:
         for s in stream:
