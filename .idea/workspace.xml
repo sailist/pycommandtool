@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f2e062e-5c88-4716-b472-38d23336dfec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/color2color/color2color/cdc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pylinux/pylinux/documents/split" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylinux/pylinux/manager/split.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/pylinux/manager/split.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylinux/pylinux/manager/tee.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/pylinux/manager/tee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pastepng/pastepng/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pastepng/pastepng/paste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickfile/quickfile/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color2color/color2color/cdc.py" beforeDir="false" afterPath="$PROJECT_DIR$/color2color/color2color/cdc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color2color/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/color2color/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pylinux/pylinux/templete.py" beforeDir="false" afterPath="$PROJECT_DIR$/pylinux/pylinux/templete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/.idea/quickfile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quickfile/.idea/quickfile.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/quickfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/quickfile/quickfile/quickfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/templete/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocr/ocr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/templete/build.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/templete/gitpush.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/templete/publish.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/quickfile/templete/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickfile/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/quickfile/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,29 +24,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/.idea/pycommandtool.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Puoe2sW6tKSx7Y7nPmmnylv3wi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/color2color/color2color" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ocr/ocr" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python\pycommandtool\ocr\ocr" />
+      <recent name="E:\Python\pycommandtool\pastepng\pastepng" />
       <recent name="E:\Python\pycommandtool\color2color\color2color" />
     </key>
   </component>
@@ -68,7 +73,11 @@
       <option name="presentableId" value="Default" />
       <updated>1566733433644</updated>
       <workItem from="1566733441354" duration="36000" />
-      <workItem from="1566734762836" duration="805000" />
+      <workItem from="1566734762836" duration="1662000" />
+      <workItem from="1566805815819" duration="613000" />
+      <workItem from="1566951476977" duration="3420000" />
+      <workItem from="1566964926804" duration="14000" />
+      <workItem from="1566965551589" duration="3475000" />
     </task>
     <servers />
   </component>

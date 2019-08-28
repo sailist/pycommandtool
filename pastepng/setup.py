@@ -1,8 +1,8 @@
 from setuptools import setup,find_packages
 
 setup(
-    name='Sailist',
-    version='0.6.9.2.dev1',
+    name='pastepng',
+    version='0.6.4.dev1',
     description='convert markdown 2 latex code perfactly,support Chinese Language',
     url='TODO',
     author='sailist',
@@ -21,11 +21,11 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    keywords='color convert',
+    keywords='TODO',
     packages=find_packages(),
     entry_points={
         'console_scripts':[
-            'cdc = color2color.cdc:main'
+            'past = pastepng.paste:main'
         ]
       },
 )

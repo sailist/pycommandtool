@@ -76,7 +76,7 @@ for color in cs:
     if n:
         res.append(",".join([str(i) for i in color]))
     elif f:
-        res.append(",".join([f"{str(i/255):.4}" for i in color]))
+        res.append(",".join([f"{i/255:.4f}" for i in color]))
     elif h:
         color = [hex(i)[-2:] for i in color]
         res.append(f"#{color[0]}{color[1]}{color[2]}")
@@ -85,3 +85,5 @@ res = "\n".join(res)
 print(res)
 print("result has been copy to the clipboard.")
 pyperclip.copy(res)
+
+exit(0)

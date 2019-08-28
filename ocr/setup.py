@@ -1,8 +1,8 @@
 from setuptools import setup,find_packages
 
 setup(
-    name='Sailist',
-    version='0.6.9.2.dev1',
+    name='ocr',
+    version='0.6.7.dev1',
     description='convert markdown 2 latex code perfactly,support Chinese Language',
     url='TODO',
     author='sailist',
@@ -10,6 +10,8 @@ setup(
     license='MIT',
     include_package_data = True,
     install_requires = [
+      # "pyperclip",
+      # "cnocr",
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -21,11 +23,11 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    keywords='color convert',
+    keywords='TODO',
     packages=find_packages(),
     entry_points={
         'console_scripts':[
-            'cdc = color2color.cdc:main'
+            'ocr = ocr.ocr:main'
         ]
       },
 )

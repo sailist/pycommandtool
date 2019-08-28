@@ -31,3 +31,6 @@ parg = parser.parse_args()
 
 print(parser.print_help())
 print(parg)
+
+
+exit(0)

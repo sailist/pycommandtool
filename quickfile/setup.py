@@ -2,7 +2,7 @@ from setuptools import setup,find_packages
 
 setup(
     name='quickfile',
-    version='0.2.2.dev1',
+    version='0.2.4.10.dev1',
     description='quick build templete file',
     url='https://github.com/sailist/pycommandtool/tree/master/pylinux',
     author='sailist',
@@ -27,6 +27,7 @@ setup(
     },
     entry_points={
         'console_scripts':[
+            'quickf = quickfile.quickfile:main',
             'qcrf = quickfile.quickfile:main'
         ]
       },
